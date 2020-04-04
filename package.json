@@ -12,9 +12,15 @@
     "website",
     "tech",
     "coding",
-    "dev"
+    "dev",
+    "project",
+    "advaith",
+    "agrivision",
+    "student partner",
+    "explore ml",
+    "mischief managed"    
   ],
-  "author": "Ryan Fitzgerald",
+  "author": "Advaith U",
   "license": "MIT",
   "devDependencies": {
     "gulp": "^4.0.0",
