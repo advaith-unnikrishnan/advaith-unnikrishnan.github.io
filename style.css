@@ -17,7 +17,7 @@ hr{
 
 /* container */
 .container{
-    padding: 0rem 1rem;
+    padding: 1.5rem 1rem;
 }
 
 .container-center{
@@ -142,4 +142,10 @@ a.links{
 
 .footer ul{
     padding-inline-start: 0px;
+}
+
+
+/* blogs */
+.container .blog-description{
+    text-align: justify;
 }
