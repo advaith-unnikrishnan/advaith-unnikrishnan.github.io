@@ -149,3 +149,9 @@ a.links{
 .container .blog-description{
     text-align: justify;
 }
+
+
+/* clap- button */
+#clap-button{
+    max-width: 2rem;
+}
