@@ -12,9 +12,9 @@
     <nav class="navigation conatiner">
         <div class="navbrand">Advaith U</div>
         <ul class="nav-buttons">
-            <li class="list-item-inline"><a class="links link-active" href="#">Home</a></li>
+            <li class="list-item-inline"><a class="links" href="/index.html">Home</a></li>
             <li class="list-item-inline"><a class="links" href="/projects.html">Project</a></li>
-            <li class="list-item-inline"><a class="links" href="/blog.html">Blog</a></li>
+            <li class="list-item-inline"><a class="links link-active" href="/blog.html">Blog</a></li>
             <li class="list-item-inline"><a class="links" href="/experience.html">Experience</a></li>
         </ul>
     </nav>
@@ -22,8 +22,34 @@
     <section class="section">
         <div class="container-center">
             <h1>Add a <span style="color: var(--primary-color);">Clap</span> button </h1>
-            <p >Ever wanted to clap as in Medium to your personal blog. Lets see how its done</p>
-            <img src="images/clap.svg" alt="clap-button" id="clap-button">
+            <p>Ever wanted to clap as in Medium to your personal blog. Lets see how its done. First we need the icon , you can get the icons from <a  class="link-paragraph" href="https://www.flaticon.com/">Flaticons</a> or any other website of your choice. The one used here is taken from flaticons , you can customise the color of your icon to match the theme of your blog. I have downloaded the icon as a <strong>SVG</strong> document. 
+            </p>
+
+            <p> Now we need to add the image to the HTML document , we use an img tag for the purpose. We also need the count of claps along the icon , so we need both of them in a single line. <strong>Inline </strong> tags can be used for this , span is an inline tag which could be used to display the count. If inline tag is a new concept for you , then read about it <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Inline_elements" class="link-paragraph">here</a> This is a sample code snippet of including  img and span in you HTML document.</p>
+
+            <img src="images/snippet1.png" alt="code-snippet" class="code-snippet">
+
+            <p>Now we need to style these elements, for span the default styling is sufficient , for the image we need to adjust its size. The below example refers to the styling of the clap icon in this page, it may <strong><em>differ in your case</em></strong>, just play around with CSS. If you get stuck just Google it, <a href="https://developer.mozilla.org/en-US/" class="link-paragraph"> Mozilla Developer Network</a> is a great resouce.</p>
+
+            <img src="images/snippet2.png" alt="code-snippet" class="code-snippet" style="height: 250px;">
+
+            <p>To make this icon interative we need to use Javascript, we could brake it down to simple steps
+                <ul>
+                    <li>select the icon</li>
+                    <li>check whether the user clicks the icon</li>
+                    <li>if user clicks the icon update the count</li>
+                </ul>                
+            </p>
+
+            <img src="images/snippet3.png" alt="code-snippet" class="code-snippet">
+
+            <p> If you liked this blog give it a clap 👏🏻</p>
+
+
+            <hr>
+            <img src="images/clap.svg" alt="clap-button" id="clap-btn">
+            <span id="clap-count">5</span>
+            <!-- <p id="clap-count">Clap count goes here</p> -->
         </div>        
     </section>
 
@@ -37,5 +63,7 @@
             <li class="list-item-inline"><a class="social-links links " href="mailto:hi@advaithunnikrishnan.me"><i class="far fa-envelope fa-lg"></i></a></li>
         </ul>
     </footer>
+
+    <script src="libs/app.js"></script>
 </body>
 </html>

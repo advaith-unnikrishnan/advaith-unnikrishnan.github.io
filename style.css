@@ -44,6 +44,10 @@ hr{
     border-radius: 0.5rem;
 }
 
+.link-paragraph{
+    color: var(--primary-color);
+    text-decoration: none;
+}
 /* Read about BEM naming convention in CSS */
 
 /* list */
@@ -152,6 +156,11 @@ a.links{
 
 
 /* clap- button */
-#clap-button{
+#clap-btn{
     max-width: 2rem;
+}
+
+/* code snippet */
+.code-snippet{
+    max-width:400px;
 }
