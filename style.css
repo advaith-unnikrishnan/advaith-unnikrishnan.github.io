@@ -166,8 +166,38 @@ a.links{
 }
 
 
-/* Responsive design */
-/* Change navbar to Hamburger menu in smaller screens */
+/* Responsive design for navigation bar */
+/* .nav-buttons .icon{
+    display: none;
+    margin: 0.5rem 1rem;
+    size: 2rem;
+}
 
+@media screen and (max-width: 600px){
+    .nav-buttons .links{
+        display: none;
+    }
+
+    .nav-buttons .icon{
+        float: right;
+        display:block;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .nav-buttons .responsive{
+        position: relative;
+    }
+
+    .nav-buttons .icon{
+        position: absolute;
+    }
+
+    .nav-buttons .responsive .links{
+        float: none;
+        display: block;
+        text-align: left;
+    }
+} */
 
 
