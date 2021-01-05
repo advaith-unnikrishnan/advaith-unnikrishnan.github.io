@@ -68,6 +68,9 @@ hr{
     padding: 1rem 0rem;
     color: white;
     border-bottom-left-radius: 1rem;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
     
 }
 .navigation .navbrand{
@@ -78,6 +81,7 @@ hr{
 
 .navigation .nav-buttons{
     text-align: right;
+    display:block;
 }
 
 /* Method 1
@@ -167,37 +171,35 @@ a.links{
 
 
 /* Responsive design for navigation bar */
-/* .nav-buttons .icon{
+
+.toggle-btn{
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
     display: none;
-    margin: 0.5rem 1rem;
-    size: 2rem;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+
+    
 }
 
-@media screen and (max-width: 600px){
-    .nav-buttons .links{
+.toggle-btn .bar{
+    height:2px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+
+/* @media screen and (max-width:600px){
+    .toggle-btn{
+        display: block ;
+    }
+
+    .nav-buttons{
         display: none;
     }
 
-    .nav-buttons .icon{
-        float: right;
-        display:block;
-    }
-}
-
-@media screen and (max-width: 600px){
-    .nav-buttons .responsive{
-        position: relative;
-    }
-
-    .nav-buttons .icon{
-        position: absolute;
-    }
-
-    .nav-buttons .responsive .links{
-        float: none;
-        display: block;
-        text-align: left;
-    }
 } */
-
-
