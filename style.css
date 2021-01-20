@@ -167,6 +167,8 @@ a.links{
     max-width:400px;
 }
 
+/* styling for talks page */
+
 .talk-section{
     display: flex;
     max-width: 800px;
@@ -185,10 +187,4 @@ a.links{
 
 .card img{
     width: 100%;
-}
-
-@media screen and (max-width:600px){
-    .talk-section{
-        flex-direction: column;
-    }
 }
