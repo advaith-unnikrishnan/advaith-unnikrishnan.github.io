@@ -170,19 +170,16 @@ a.links{
 /* styling for talks page */
 
 .talk-section{
-    display: flex;
-    max-width: 800px;
-    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(400px,2fr));
 }
 
 .card{
     max-width: 400px;
     margin: 2rem 4rem;
-    /* border: 1px solid black;
-    border-radius: 1rem; */
-    padding: 1rem;
-    flex-wrap: wrap;
-    
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 1rem;    
 }
 
 .card img{
