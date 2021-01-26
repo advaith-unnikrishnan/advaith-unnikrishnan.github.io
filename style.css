@@ -65,10 +65,11 @@ hr{
 
 /* nav */
 .navigation{
+    display: flex;
+    justify-content: space-between;
     background-color: var(--primary-color);
     padding: 1rem 0rem;
     color: white;
-    border-bottom-left-radius: 1rem;
     
 }
 .navigation .navbrand{
@@ -134,7 +135,6 @@ a.links{
     padding: 4rem 1rem;
     text-align: center;
     color: white;
-    border-top-right-radius: 1rem;
 }
 
 .footer .footer-header{
@@ -177,11 +177,7 @@ a.links{
 .card{
     max-width: 400px;
     margin: 2rem 4rem;
-    border: 1px solid black;
     border-radius: 1rem;
     padding: 1rem;    
 }
 
-.card img{
-    width: 100%;
-}
