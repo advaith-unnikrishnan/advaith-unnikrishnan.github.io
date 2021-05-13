@@ -195,6 +195,7 @@ a.links{
     
     .nav-buttons{
         position: absolute;
+        margin-top: 2.5rem;
         right:0px;
         background-color: var(--primary-color);
         display: flex;
@@ -207,8 +208,7 @@ a.links{
     }
 
     .nav-buttons li{
-        margin: 2rem;
-        opacity: 0;
+        margin: 3rem 1rem;
     }
 
     .burger{
