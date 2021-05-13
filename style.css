@@ -79,8 +79,7 @@ hr{
 }
 
 .navigation .nav-buttons{
-    text-align: right;
-    
+    text-align: right;    
 }
 
 /* Method 1
@@ -182,3 +181,45 @@ a.links{
     padding: 1rem;    
 }
 
+/* Mobile Navigation */
+
+.burger{
+    display:none;
+}
+
+@media screen and (max-width:768px) {
+
+    body{
+        overflow-x:hidden;
+    }
+    
+    .nav-buttons{
+        position: absolute;
+        margin-top: 2.5rem;
+        right:0px;
+        background-color: var(--primary-color);
+        display: flex;
+        flex-direction:column;
+        align-items: center;
+        height: 100%;
+        width: 50%;
+        transform: translateX(100%);
+        transition: transform 0.4s ease-in;
+    }
+
+    .nav-buttons li{
+        margin: 3rem 1rem;
+    }
+
+    .burger{
+        display: block;
+        color: #fff;
+        font-size:1.5rem;
+        padding: 1rem;
+        cursor: pointer;
+    }
+
+    .nav-active{
+        transform: translateX(0%);
+    }
+}
